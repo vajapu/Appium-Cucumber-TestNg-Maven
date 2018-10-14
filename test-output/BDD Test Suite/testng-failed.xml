@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <test name="test(failed)" parallel="tests">
+    <classes>
+      <class name="com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+          <include name="tearDownClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

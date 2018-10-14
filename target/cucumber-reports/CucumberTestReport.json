@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1067670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Agenda",
+        "description": "",
+        "id": "agile-ncr-app;agenda",
+        "after": [
+          {
+            "result": {
+              "duration": 159552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7417223,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Application Home Page",
+            "match": {
+              "location": "AgileNCRStep.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@initiateDriver"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 68013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.secondBefore()"
+            }
+          },
+          {
+            "result": {
+              "duration": 19677,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Speakers",
+        "description": "",
+        "id": "agile-ncr-app;speakers",
+        "after": [
+          {
+            "result": {
+              "duration": 32509,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112071,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Application Home Page",
+            "match": {
+              "location": "AgileNCRStep.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@initiateDriver"
+          },
+          {
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "Agile NCR App",
+    "description": "    In order to look at Agile NCR Conference\n    As a Registered user\n    I want to specify the flow to Agenda and Speakers",
+    "id": "agile-ncr-app",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/comcast/ucAppAutomation/businessDrivenTesting/features/AgileNCR.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51758,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Agenda2",
+        "description": "",
+        "id": "2.agile-ncr-app;agenda2",
+        "after": [
+          {
+            "result": {
+              "duration": 36787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143297,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Application Home Page",
+            "match": {
+              "location": "AgileNCRStep.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@initiateDriver"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 46625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.secondBefore()"
+            }
+          },
+          {
+            "result": {
+              "duration": 17538,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Speakers2",
+        "description": "",
+        "id": "2.agile-ncr-app;speakers2",
+        "after": [
+          {
+            "result": {
+              "duration": 35932,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 265206,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Application Home Page",
+            "match": {
+              "location": "AgileNCRStep.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@initiateDriver"
+          },
+          {
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "2.Agile NCR App",
+    "description": "    In order to look at Agile NCR Conference\n    As a Registered user\n    I want to specify the flow to Agenda and Speakers",
+    "id": "2.agile-ncr-app",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/comcast/ucAppAutomation/businessDrivenTesting/features/AgileNCR2.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" parallel="tests" thread-count="9" verbose="1" configfailurepolicy="continue">
+    <test name="test1" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner"/>
+        </classes>
+    </test>
+    <test name="test2" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner"/>
+        </classes>
+    </test>
+</suite>

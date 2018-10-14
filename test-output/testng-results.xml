@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="586" started-at="2018-10-14T11:23:37Z" finished-at="2018-10-14T11:23:37Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="test2" duration-ms="586" started-at="2018-10-14T11:23:37Z" finished-at="2018-10-14T11:23:37Z">
+      <class name="com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="setUpClass" is-config="true" duration-ms="214" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="pub()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="pub" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pub -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="setUp" is-config="true" duration-ms="1" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="runScenario" duration-ms="204" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Agenda"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="runScenario" duration-ms="5" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Speakers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="runScenario" duration-ms="10" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Agenda2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["2.Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="runScenario" duration-ms="3" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Speakers2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["2.Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@e81285]" name="tearDownClass" is-config="true" duration-ms="38" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner -->
+    </test> <!-- test2 -->
+    <test name="test1" duration-ms="586" started-at="2018-10-14T11:23:37Z" finished-at="2018-10-14T11:23:37Z">
+      <class name="com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="setUpClass" is-config="true" duration-ms="214" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="pub()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="pub" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pub -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="setUp" is-config="true" duration-ms="1" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="runScenario" duration-ms="204" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Agenda"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="runScenario" duration-ms="15" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Speakers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="runScenario" duration-ms="6" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Agenda2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["2.Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="runScenario" duration-ms="4" started-at="2018-10-14T16:53:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-14T16:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Speakers2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["2.Agile NCR App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner@166e5bd]" name="tearDownClass" is-config="true" duration-ms="35" started-at="2018-10-14T16:53:37Z" finished-at="2018-10-14T16:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.comcast.ucAppAutomation.businessDrivenTesting.cucumberOptions.TestRunner -->
+    </test> <!-- test1 -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
